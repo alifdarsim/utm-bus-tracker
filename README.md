@@ -1,3 +1,8 @@
+
+## Note
+This project was abandoned on July 2018 due to costing and other UTM internal issue.
+
+----
 <br>
 <p align="center">
     <h1>UTM Bus Tracker</h1>
