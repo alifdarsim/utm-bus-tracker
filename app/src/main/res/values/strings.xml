@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Bus UTM</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_driver_main">DriverMainActivity</string>
+
+    <string name="url_auth">https://sso.utm.my/login/index.php</string>
+
+    <string name="drawer_opened">open</string>
+    <string name="drawer_closed">close</string>
+</resources>

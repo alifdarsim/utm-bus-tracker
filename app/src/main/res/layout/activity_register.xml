@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/rootFrame"
+    android:orientation="vertical"
+    tools:ignore="MissingPrefix">
+
+    <WebView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/web"
+        />
+
+    <ProgressBar
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/progress"
+        android:layout_centerInParent="true"/>
+
+    <!--<TextView-->
+        <!--fontPath="fonts/museo.otf"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:text="BUS UTM"-->
+        <!--android:textSize="32sp"-->
+        <!--android:textStyle="bold"-->
+        <!--android:gravity="center_horizontal"-->
+        <!--android:layout_marginTop="24sp"-->
+        <!--android:textColor="#222233"-->
+        <!--/>-->
+
+    <!--<LinearLayout-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="match_parent"-->
+        <!--android:layout_margin="28dp"-->
+        <!--android:gravity="center_vertical"-->
+        <!--android:orientation="vertical"-->
+        <!--&gt;-->
+
+        <!--<com.rengwuxian.materialedittext.MaterialEditText-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:id="@+id/loginName"-->
+            <!--fontPath="fonts/clanpro.ttf"-->
+            <!--android:hint="ACID"-->
+            <!--app:met_floatingLabel="highlight"-->
+            <!--app:met_textColorHint="#C0C0C8"-->
+            <!--app:met_errorColor="#f44336"-->
+            <!--android:text=""-->
+            <!--app:met_underlineColor="#1FBAD6"-->
+            <!--app:met_floatingLabelTextColor="#1FBAD6"-->
+            <!--android:imeOptions="actionNext"-->
+            <!--android:singleLine="true"-->
+            <!--android:nextFocusDown="@+id/loginPassword"-->
+            <!--app:met_iconLeft="@drawable/mortarboard"-->
+            <!--android:layout_marginBottom="8dp"-->
+            <!--android:layout_marginRight="16dp"-->
+            <!--/>-->
+
+        <!--<com.rengwuxian.materialedittext.MaterialEditText-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:id="@+id/loginPassword"-->
+            <!--fontPath="fonts/clanpro.ttf"-->
+            <!--android:hint="Password"-->
+            <!--app:met_floatingLabel="highlight"-->
+            <!--app:met_textColorHint="#C0C0C8"-->
+            <!--app:met_errorColor="#f44336"-->
+            <!--android:text=""-->
+            <!--app:met_underlineColor="#1FBAD6"-->
+            <!--app:met_floatingLabelTextColor="#1FBAD6"-->
+            <!--android:imeOptions="actionNext"-->
+            <!--android:singleLine="true"-->
+            <!--android:nextFocusDown="@+id/loginPassword"-->
+            <!--app:met_iconLeft="@drawable/locked"-->
+            <!--android:layout_marginBottom="24dp"-->
+            <!--android:layout_marginRight="16dp"-->
+            <!--/>-->
+        <!---->
+        <Button
+            android:id="@+id/loginButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="LOGIN"
+            fontPath="fonts/clanpro.ttf"
+            android:textColor="#FFFFFF"
+            android:layout_marginBottom="12dp"
+            android:padding="18dp"
+            style="@style/Button"
+            />
+
+        <!--<TextView-->
+            <!--fontPath="fonts/clanpro.ttf"-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_gravity="center"-->
+            <!--android:clickable="true"-->
+            <!--android:focusable="true"-->
+            <!--android:gravity="center_horizontal"-->
+            <!--android:text="UTM staff? Click here to login"-->
+            <!--android:layout_alignParentBottom="true"-->
+            <!--/>-->
+
+    <!--</LinearLayout>-->
+
+    <!--<TextView-->
+        <!--fontPath="fonts/clanpro.ttf"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_gravity="center"-->
+        <!--android:gravity="center_horizontal"-->
+        <!--android:text="Universiti Teknologi Malaysia © 2018"-->
+        <!--android:layout_alignParentBottom="true"-->
+        <!--android:layout_marginBottom="24dp"-->
+        <!--/>-->
+
+</RelativeLayout>

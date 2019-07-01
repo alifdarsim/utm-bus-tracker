@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/rootFrame"
+    android:orientation="vertical"
+    tools:ignore="MissingPrefix"
+    android:background="@color/colorPrimary">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="28dp"
+        android:gravity="center_vertical"
+        android:orientation="vertical"
+        >
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:scaleX="2"
+            android:scaleY="2"
+            android:src="@mipmap/ic_launcher"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="UTM BUS SHUTTLE"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:gravity="center_horizontal"
+            android:layout_marginTop="35sp"
+            android:layout_marginBottom="30sp"
+            android:textColor="#CCFFFFFF"
+            android:fontFamily="@font/clanpro"
+            />
+
+        <com.rengwuxian.materialedittext.MaterialEditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/loginName"
+            android:hint="ACID "
+            app:met_floatingLabel="normal"
+            app:met_textColorHint="#80FFFFFF"
+            app:met_errorColor="#f44336"
+            app:met_baseColor="#FFFFFF"
+            android:text=""
+            app:met_primaryColor="#FFFFFF"
+            app:met_underlineColor="#f3a617"
+            app:met_floatingLabelTextColor="#f3a617"
+            android:imeOptions="actionNext"
+            android:singleLine="true"
+            android:nextFocusDown="@+id/loginPassword"
+            app:met_iconLeft="@drawable/student"
+            android:layout_marginBottom="8dp"
+            android:layout_marginEnd="16dp"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+            />
+
+        <com.rengwuxian.materialedittext.MaterialEditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/loginPassword"
+            android:hint="Password"
+            app:met_floatingLabel="normal"
+            app:met_textColorHint="#80FFFFFF"
+            app:met_baseColor="#FFFFFF"
+            app:met_errorColor="#f44336"
+            android:textColor="#FFFFFF"
+            android:text=""
+            app:met_primaryColor="#FFFFFF"
+            android:inputType="textPassword"
+            app:met_underlineColor="#f3a617"
+            app:met_floatingLabelTextColor="#f3a617"
+            android:imeOptions="actionDone"
+            android:singleLine="true"
+            app:met_iconLeft="@drawable/locked"
+            android:layout_marginBottom="24dp"
+            android:layout_marginEnd="16dp"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+            />
+        
+        <Button
+            android:id="@+id/loginButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="LOGIN"
+            android:textStyle="bold"
+            fontPath="fonts/clanpro.ttf"
+            android:textColor="#FFFFFF"
+            android:layout_marginBottom="12dp"
+            android:padding="18dp"
+            style="@style/Button"
+            />
+
+    </LinearLayout>
+
+    <TextView
+        fontPath="fonts/clanpro.ttf"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center_horizontal"
+        android:textSize="12sp"
+        android:text="Universiti Teknologi Malaysia © 2018"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="24dp"
+        android:textColor="@color/colorWhite"
+        />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/loginBackground"
+        android:background="#80FFFFFF"
+        android:visibility="invisible">
+    </RelativeLayout>
+
+</RelativeLayout>

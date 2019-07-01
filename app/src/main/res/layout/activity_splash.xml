@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/rootFrame"
+    android:orientation="vertical"
+    tools:ignore="MissingPrefix"
+    android:background="@color/colorPrimary">
+
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/ic_applogo"
+        android:scaleX="0.4"
+        android:scaleY="0.4"
+        android:layout_gravity="center"/>
+
+</RelativeLayout>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:ignore="MissingPrefix">
+
+    <group android:checkableBehavior="single">
+        <item android:id="@+id/nav_bus_info"
+            android:icon="@drawable/ic_driver"
+            android:title="Route Info"
+            fontPath="fonts/museo.otf"/>
+        <item android:id="@+id/nav_help"
+            android:icon="@drawable/ic_help"
+            android:title="Help"
+            fontPath="fonts/museo.otf"/>
+        <item android:id="@+id/nav_about"
+            android:icon="@drawable/ic_info"
+            android:title="About"
+            fontPath="fonts/museo.otf"/>
+        <item android:id="@+id/nav_logout"
+            android:icon="@drawable/ic_logout"
+            android:title="Logout"
+            fontPath="fonts/museo.otf"/>
+    </group>
+
+</menu>

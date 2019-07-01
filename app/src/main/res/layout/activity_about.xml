@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/rootFrame"
+    android:orientation="vertical"
+    tools:ignore="MissingPrefix">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:navigationIcon="?attr/homeAsUpIndicator"
+        android:background="?attr/colorPrimary"
+        app:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
+        app:popupTheme="@style/ThemeOverlay.AppCompat.Light"
+        >
+        <TextView
+            android:id="@+id/toolbar_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            style="@style/TextAppearance.AppCompat.Widget.ActionBar.Title"
+            android:layout_gravity="center"
+            android:text="ABOUT"
+            android:textColor="#FFFFFF"/>
+    </android.support.v7.widget.Toolbar>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center_vertical"
+        >
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_applogo"
+            android:layout_gravity="center_vertical"/>
+        <TextView
+            fontPath="fonts/clanpro.otf"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="\nApps by: Hidhir Lutfi\n\n\nRead disclaimer in HELP section to learn more.\n"
+            android:gravity="center_horizontal"
+            />
+        <TextView
+            fontPath="fonts/clanpro.otf"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Current version: v 0.8.0 (Beta)"
+            android:gravity="center_horizontal"
+            />
+    </LinearLayout>
+
+    <TextView
+        fontPath="fonts/clanpro.ttf"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center_horizontal"
+        android:text="Universiti Teknologi Malaysia © 2018"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="24dp"
+        />
+
+</RelativeLayout>
